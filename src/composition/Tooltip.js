@@ -1,5 +1,5 @@
 import React from 'react';
-import 'Tooltip.css';
+import './Tooltip.css';
 
 function Tooltip(props){
     return (
