@@ -3,7 +3,7 @@ function leapYear(year){
         throw new Error(`Leap Year rules do not work before 1582`);
     }
     const div400 = year % 400 === 0;
-    const div100 = year % 100 !== 0;
+    const div100 = year % 100 === 0;
     const div4 = year % 4 === 0;
 
     return div400 || (div4 && !div100);
