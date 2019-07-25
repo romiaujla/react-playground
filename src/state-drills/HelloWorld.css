@@ -1,0 +1,23 @@
+.hello-world-component button{
+    padding: 8px 10px;
+    background: salmon;
+    border: none;
+    margin-right: 10px;
+    color: white;
+    font-size: 0.9em;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.hello-world-component button:hover,
+.hello-world-component button:focus{
+    background: crimson;
+}
+
+.hello-world-component{
+    margin-bottom: 30px;
+    border-bottom: 2px solid salmon;
+    padding-bottom: 30px;
+}
+
