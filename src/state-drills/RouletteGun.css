@@ -1,4 +1,4 @@
-.hello-world-component button{
+.roullete-gun-component button{
     padding: 8px 10px;
     background: salmon;
     border: none;
@@ -10,8 +10,8 @@
     text-transform: uppercase;
 }
 
-.hello-world-component button:hover,
-.hello-world-component button:focus{
+.roullete-gun-component button:hover,
+.roullete-gun-component button:focus{
     background: crimson;
 }
 

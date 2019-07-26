@@ -11,7 +11,6 @@ class Bomb extends React.Component {
         super(props);
         this.state = {
             count: 0,
-            text: `tick`
         }
     }
 
@@ -25,7 +24,7 @@ class Bomb extends React.Component {
             });
             
             const count = this.state.count;
-            if(count%2 === 1){
+            if(count%2 === 0){
                 this.setState({
                     text: `tock`
                 });
@@ -53,7 +52,7 @@ class Bomb extends React.Component {
 
     render(){
         return (
-            <div className='tick-tock'>
+            <div className='bomb-component'>
                 <p>{this.state.text}</p>
             </div>
         );  
