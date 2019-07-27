@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordian Component renders an empty li with no props provided 1`] = `
+<ul
+  className="accordian-component"
+>
+  <li
+    className="accordian-item"
+    key="0"
+  />
+</ul>
+`;
+
+exports[`Accordian Component renders last section when multiple button clicks take place 1`] = `
+<ul
+  className="accordian-component"
+>
+  <li
+    className="accordian-item"
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="accordian-item"
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    className="accordian-item"
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 3
+    </button>
+    <p>
+      Animi amet cumque sint cupiditate officia ab voluptatibus libero optio et?
+    </p>
+  </li>
+</ul>
+`;
+
+exports[`Accordian Component renders no sections by default 1`] = `
+<ul
+  className="accordian-component"
+>
+  <li
+    className="accordian-item"
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="accordian-item"
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 2
+    </button>
+  </li>
+  <li
+    className="accordian-item"
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;
+
+exports[`Accordian Component renders the correct section on button click 1`] = `
+<ul
+  className="accordian-component"
+>
+  <li
+    className="accordian-item"
+    key="0"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 1
+    </button>
+  </li>
+  <li
+    className="accordian-item"
+    key="1"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 2
+    </button>
+    <p>
+      Cupiditate tenetur aliquam necessitatibus id distinctio quas nihil ipsam nisi modi!
+    </p>
+  </li>
+  <li
+    className="accordian-item"
+    key="2"
+  >
+    <button
+      onClick={[Function]}
+      type="button"
+    >
+      Section 3
+    </button>
+  </li>
+</ul>
+`;

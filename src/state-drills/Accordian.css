@@ -1,0 +1,23 @@
+body{
+    background: snow;    
+}
+
+li{
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+button{
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    background: lightblue;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover,
+button:focus{
+    background: cyan;
+}
+
